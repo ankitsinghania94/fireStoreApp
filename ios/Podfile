@@ -1,0 +1,29 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '9.0'
+
+target 'fireStoreApp' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for fireStoreApp
+
+  # Required by RNFirebase
+  pod 'Firebase/Core'
+
+  # [OPTIONAL PODS] - comment out pods for firebase products you won't be using.
+#   pod 'Firebase/AdMob'
+#   pod 'Firebase/Auth'
+#   pod 'Firebase/Crash'
+#   pod 'Firebase/Database'
+#   pod 'Firebase/DynamicLinks'
+#   pod 'Firebase/Performance'
+#   pod 'Firebase/Firestore'
+#   pod 'Firebase/Messaging'
+#   pod 'Firebase/RemoteConfig'
+#   pod 'Firebase/Storage'
+  pod 'RNFirebase', :path => '../node_modules/react-native-firebase'
+  pod 'React', :path => '../node_modules/react-native'
+  pod 'yoga', :path => '../node_modules/react-native/ReactCommon/yoga'
+  pod 'Firebase/Firestore'
+
+end

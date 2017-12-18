@@ -1,0 +1,19 @@
+{
+  "CartData" :{ 
+    "rss": {
+      "channel": {
+        "title": "WooCommerce Dummy Data",
+        "link": "http://demo.woothemes.com/woocommerce",
+        "description": "Just another WooThemes Demo site",
+        "pubDate": "Fri, 14 Jun 2013 12:35:54 +0000",
+        "language": "en-US",
+        "wxr_version": {
+          "__text": "1.2",
+          "toString": [
+            null
+          ]
+        }
+      }
+    }
+  }
+}   
