@@ -21,7 +21,7 @@ target 'fireStoreApp' do
 #   pod 'Firebase/Messaging'
 #   pod 'Firebase/RemoteConfig'
 #   pod 'Firebase/Storage'
-  pod 'RNFirebase', :path => '../node_modules/react-native-firebase'
+  # pod 'RNFirebase', :path => '../node_modules/react-native-firebase'
   pod 'React', :path => '../node_modules/react-native'
   pod 'yoga', :path => '../node_modules/react-native/ReactCommon/yoga'
   pod 'Firebase/Firestore'
