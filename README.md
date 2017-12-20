@@ -8,11 +8,11 @@ i.e `node json-to-firestore.js`
  if not download it from your firebase or follow this link https://support.google.com/firebase/answer/7015592?hl=en
 2. Make sure you have serviceAccount for sending .json file to firestore if not you can follow this link https://hackernoon.com/filling-cloud-firestore-with-data-3f67d26bd66e
 
-## iOS Setup
+## iOS Setup (Only)
 1. Clone the repo.
 2. Do npm install.
-3. Go to iOS folder, then -> run `pod install`.
+3. run command `react-native link`.
+4. Go to iOS folder, then -> run `pod install`.
 4. Go back to your repo i.e `cd ..`.
-5. run command `react-native link`.
-6. run comman `react-native run-ios`.
+6. run command `react-native run-ios`.
 
