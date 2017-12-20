@@ -18,12 +18,6 @@ import firebase from "react-native-firebase";
 
 import _ from "lodash";
 
-const instructions = Platform.select({
-  ios: 'Press Cmd+R to reload,\n' +
-    'Cmd+D or shake for dev menu',
-  android: 'Double tap R on your keyboard to reload,\n' +
-    'Shake or press menu button for dev menu',
-});
 
 export default class App extends Component<{}> {
 constructor() {
@@ -88,7 +82,7 @@ componentDidMount() {
     return;
 
     let checkTodo = _.filter(this.state.todoList, item => item.title == this.state.text);
-    if(checkTodo) {
+    if(checkTodo.length > 0) {
       alert("Already There");
       this.setState({ text: "" });
       return;
@@ -96,7 +90,7 @@ componentDidMount() {
 
     var todo = {
       title: this.state.text,
-      isCompleted: true
+      isCompleted: false
     }
 
     // Add Data to firestore
